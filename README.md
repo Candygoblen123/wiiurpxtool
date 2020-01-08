@@ -1,7 +1,10 @@
 # wiiurpxtool
 Compress or decompress RPL/RPX files for Wii U. This branch does some minor changes to make it compile and run on macos for my injector script.
 
-This functions exactly the same as the orignal
+This functions exactly the same as the orignal.
+
+compile with 
+`clang++ -o wiiurpxtool wiiurpxtool.cpp -lz`
 # Credits
 Hykem (documentation and research of the RPL/RPX format)
 
